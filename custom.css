@@ -1,4 +1,7 @@
  @media(max-width:768px) {
+     body{
+         width: 100vw;
+     }
      .klasa{
     font-size: 40px !important;
     display: block;
@@ -12,18 +15,17 @@
         color: aliceblue;
     }
     .titleClass{
-        font-size: 40px;
+        font-size: 35px;
+        text-align: center;
     }
     .d-flex{
         flex-direction: column;
     }
-    .justify-content-between{
-    }
     .btn-dark{
-        font-size: 30px;
+        font-size: 20px;
     }
     .btn-danger{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
     
