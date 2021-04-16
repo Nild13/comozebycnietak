@@ -2,7 +2,7 @@
      body{
          width: 100vw;
          height: 105vh;
-         background-image: url("assets/cool-background.png");
+         background-image: url("cool-background.png");
          background-repeat: no-repeat;
      }
      .klasa{
