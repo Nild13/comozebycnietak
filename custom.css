@@ -1,8 +1,8 @@
-  @media(max-width:768px) {
+   @media(max-width:768px) {
      body{
          width: 100vw;
-         height: 105vh;
-         background-image: url("cool-background.png");
+         height: 100%;
+         background-image: url("assets/cool-background.png");
          background-repeat: no-repeat;
      }
      .klasa{
@@ -43,8 +43,19 @@
     .googleBox{
         background-color: white !important;
     }
+    .footer{
+        position: relative;
+    }
+    #tableBody{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .footer {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    height: 50px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -52,8 +63,4 @@
     background-color: rgba(202, 202, 202, 0.384);
     color: black;
     text-align: center;
- }   
-
-/* potrzebuje:
--768px
--480px  */
+ }  
