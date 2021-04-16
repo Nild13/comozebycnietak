@@ -1,7 +1,10 @@
   @media(max-width:768px) {
      body{
          width: 100vw;
-         height: 110vh;
+         height: 105vh;
+         background-image: url("pexels-photo-925743.webp");
+         background-repeat: no-repeat;
+            background-position: 50% 54%; 
      }
      .klasa{
     font-size: 40px !important;
@@ -18,6 +21,7 @@
     .titleClass{
         font-size: 35px;
         text-align: center;
+        
     }
     .d-flex{
         flex-direction: column;
@@ -28,5 +32,12 @@
     .btn-danger{
         font-size: 20px;
     }
+    .joke{
+        color: black;
+    }
 }
     
+
+/* potrzebuje:
+-768px
+-480px  */
