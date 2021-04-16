@@ -1,6 +1,7 @@
- @media(max-width:768px) {
+  @media(max-width:768px) {
      body{
          width: 100vw;
+         height: 110vh;
      }
      .klasa{
     font-size: 40px !important;
@@ -8,7 +9,7 @@
     }
     .form-control{
         padding-bottom: 15px !important ;
-        font-size: 40px;
+        font-size: 20px;
     }
     .btn-outline-success{
         background-color: green;
@@ -29,7 +30,3 @@
     }
 }
     
-
-/* potrzebuje:
--768px
--480px  */
