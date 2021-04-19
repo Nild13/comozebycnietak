@@ -109,3 +109,6 @@ document.getElementById('search').onclick = function() {
     google = document.querySelector('.googleBox').value
     window.open('http://google.com/search?q='+google);
 };
+document.querySelector('.testClass').addEventListener('click', function(){
+    console.log('blah')
+})
