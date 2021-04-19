@@ -76,6 +76,12 @@ function getItem(){
             localStorage.setItem('data', JSON.stringify(get_data))
             location.reload();
         })
+            
+          deleteButton.addEventListener('click',function(){
+            $("#editModal").modal('show');
+
+        })
+            
         button.id = 'buttonsId' + i
         td.textContent = get_data[i];
         th.textContent = i+1;
