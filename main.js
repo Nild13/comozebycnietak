@@ -78,6 +78,7 @@ function getItem(){
         })
             
           deleteButton.addEventListener('click',function(){
+               let indeks = i;
             $("#editModal").modal('show');
 
         })
@@ -112,5 +113,5 @@ document.getElementById('search').onclick = function() {
 document.querySelector('.testClass').addEventListener('click', function(){
     console.log('blah')
     let getEdit_data = JSON.parse(localStorage.getItem('data'))
-    console.log(getEdit_data[i])
+    console.log(getEdit_data[indeks])
 })
