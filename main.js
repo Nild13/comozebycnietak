@@ -63,8 +63,6 @@ function getItem(){
         let td = document.createElement('td');
         let th = document.createElement('th');
         let button = document.createElement('button')
-        let deleteButton = document.createElement('button')
-        deleteButton.textContent= 'E';
         button.type = 'button'
         button.classList="btn-close"
         button.addEventListener('click', function(){
@@ -77,11 +75,6 @@ function getItem(){
             location.reload();
         })
             
-          deleteButton.addEventListener('click',function(){
-               let indeks = i;
-            $("#editModal").modal('show');
-
-        })
             
         button.id = 'buttonsId' + i
         td.textContent = get_data[i];
@@ -90,7 +83,7 @@ function getItem(){
         tr.appendChild(th)
         tr.appendChild(td)
         tr.appendChild(button)
-        tr.appendChild(deleteButton)
+     
         document.querySelector('#tableBody').appendChild(tr)
         }
         
@@ -110,8 +103,3 @@ document.getElementById('search').onclick = function() {
     google = document.querySelector('.googleBox').value
     window.open('http://google.com/search?q='+google);
 };
-document.querySelector('.testClass').addEventListener('click', function(){
-    console.log('blah')
-    let getEdit_data = JSON.parse(localStorage.getItem('data'))
-    console.log(getEdit_data[indeks])
-})
