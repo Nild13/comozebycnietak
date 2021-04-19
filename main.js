@@ -112,5 +112,5 @@ document.getElementById('search').onclick = function() {
 document.querySelector('.testClass').addEventListener('click', function(){
     console.log('blah')
     let getEdit_data = JSON.parse(localStorage.getItem('data'))
-    console.log(getEdit_data)
+    console.log(getEdit_data[i])
 })
