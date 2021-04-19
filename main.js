@@ -63,6 +63,8 @@ function getItem(){
         let td = document.createElement('td');
         let th = document.createElement('th');
         let button = document.createElement('button')
+        let deleteButton = document.createElement('button')
+        deleteButton.textContent= 'E';
         button.type = 'button'
         button.classList="btn-close"
         button.addEventListener('click', function(){
@@ -81,6 +83,7 @@ function getItem(){
         tr.appendChild(th)
         tr.appendChild(td)
         tr.appendChild(button)
+        tr.appendChild(deleteButton)
         document.querySelector('#tableBody').appendChild(tr)
         }
         
